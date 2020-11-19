@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Home Page</title>
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="request.php">Home</a></li>
+                    <li><a href="profile.php">Profile</a></li>
+                    <li><a href="message.php">Messages</a></li>
+                    <li><a href="friend.php">Friends</a></li>
+                    <li><a href="home.php">View me on a map</a></li>
+                    <li><a href="aboutus.php">About us</a></li>
+                    <form action="search.php" method="POST" >
+                    <input type="text" placeholder="Search by keyword..." name="keyword">
+                    <input type="submit"  name="searchSubmit" value="Search"><i class="fa fa-search"></i>
+                    <a href="login.php" class="navbar-brand pull-right" style="color: white;"><strong>Logout</strong></a>
+                    </form>
+                    
+                </ul>
+            </nav>
+        </header>
+       
+    </body>
+</html>
+
